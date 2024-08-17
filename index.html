@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulación de Ruta de Recolección de Residuos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1> Ruta de Recolección de Residuos</h1>
+
+    <canvas id="rutaCanvas" width="600" height="400"></canvas>
+
+    <h2>Info</h2>
+        <div id="log"></div>
+        <div id="eppSelection"></div>
+    <div id="recolectorButtons">
+        <button class="r1" onclick="selectRecolector('Recolector 1')">Seleccionar EPPs para Recolector 1</button>
+        <button class="r2" onclick="selectRecolector('Recolector 2')">Seleccionar EPPs para Recolector 2</button>
+        <button class="r3" onclick="selectRecolector('Recolector 3')">Seleccionar EPPs para Recolector 3</button>
+    </div>
+    <script src="jscanvas.js"></script>
+</body>
+</html>

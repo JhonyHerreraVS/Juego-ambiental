@@ -1,0 +1,60 @@
+#rutaCanvas {
+    border: 1px solid black;
+}
+
+#log {
+    margin-top: 10px;
+    border: 1px solid black;
+    height: 150px;
+    overflow-y: scroll;
+}
+
+#eppSelection {
+    margin-top: 10px;
+}
+
+.eppImg {
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+
+.selected {
+    border: 2px solid green;
+}
+
+.recolectorEpp {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+button {
+    margin: 10px;
+    border-radius: 15px;
+    padding: 5px;
+}
+
+.r1{
+    background-color: rgb(247, 197, 32);
+}
+.r2{
+    background-color: rgb(13, 233, 225);
+}
+.r3{
+    background-color: rgb(171, 30, 222);
+}
+
+.confirm{
+background-color: greenyellow;
+}
+
+canvas{
+  margin-left: 30%;
+  margin-right: 25%;
+}
+
+h1, h2{
+    font-family: chiller;
+    text-shadow: 5px 5px 5px springgreen;
+    text-align: center  ;
+}
